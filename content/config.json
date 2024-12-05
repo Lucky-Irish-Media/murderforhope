@@ -1,8 +1,8 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
+  "title": "Murder of Crows for Hope",
+  "url": "https://www.murderforhope.org",
+  "description": "A murder of crows for hope.",
+  "copyright": "2024© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "pathPrefix": "/",
   "feedLimit": 4,
@@ -12,26 +12,26 @@
       "url": "/"
     },
     {
-      "title": "About me",
+      "title": "About Us",
       "url": "/pages/about"
     },
     {
-      "title": "Contact me",
+      "title": "Contact Us",
       "url": "/pages/contacts"
     }
   ],
   "author": {
-    "title": "John Doe",
+    "title": "Lucky Irish Media",
     "photo": "/logo.png",
-    "description": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "description": "Murder of Crows for Hope",
     "contacts": [
       {
         "name": "github",
-        "contact": "alxshelepenok"
+        "contact": "lucky-irish-media"
       },
       {
         "name": "linkedin",
-        "contact": "alxshelepenok"
+        "contact": "ian-link"
       }
     ]
   }
