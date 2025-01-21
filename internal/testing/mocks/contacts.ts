@@ -14,6 +14,10 @@ export default [
     contact: "#",
   },
   {
+    name: "bluesky",
+    contact: "#",
+  },
+  {
     name: "x",
     contact: "#",
   },

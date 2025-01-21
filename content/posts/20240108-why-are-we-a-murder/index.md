@@ -1,12 +1,12 @@
 ---
 title: "Why Are We A Murder?"
-date: "2024-04-12T19:50:37.121Z"
+date: "2024-01-08T19:50:37.121Z"
 template: "post"
 draft: false
 slug: "/posts/why-are-we-a-murder"
 category: "General"
 tags:
-  - "Murder"
+  - General
 description: "Why are we a Murder and how can we bring hope?"
 socialImage: "./image.jpg"
 ---

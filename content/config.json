@@ -1,8 +1,8 @@
 {
   "title": "Murder of Crows for Hope",
   "url": "https://www.murderforhope.org",
-  "description": "A murder of crows for hope.",
-  "copyright": "2024© All rights reserved.",
+  "description": "Just a bunch of crows trying to make the world a better place through the distribution of hope.",
+  "copyright": "2025© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "pathPrefix": "/",
   "feedLimit": 4,
@@ -21,13 +21,13 @@
     }
   ],
   "author": {
-    "title": "Lucky Irish Media",
+    "title": "Some Crows for Hope",
     "photo": "/logo.png",
-    "description": "Murder of Crows for Hope",
+    "description": "Just some Civic minded crows looking to grow hope in the world.",
     "contacts": [
       {
-        "name": "github",
-        "contact": "lucky-irish-media"
+        "name": "bluesky",
+        "contact": "murderforhope"
       }
     ]
   }

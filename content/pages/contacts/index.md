@@ -4,4 +4,4 @@ template: "page"
 socialImage: "./image.jpg"
 ---
 
-Carrier Pidgeon is the easiest mode of communication at this time.
+Carrier Pigeon is the easiest mode of communication at this time.
