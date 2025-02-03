@@ -19,7 +19,7 @@
     "serve": "gatsby serve",
     "release": "semantic-release",
     "clean": "rimraf .cache public",
-    "build": "bun run clean && gatsby build && bun run sentry:sourcemaps && bun run sentry:sourcemaps",
+    "build": "bun run clean && gatsby build && bun run sentry:sourcemaps && bun run sentry:sourcemaps && bun run sentry:sourcemaps",
     "start": "bun run clean && gatsby develop",
     "version": "bun ./internal/scripts/up-version.mjs",
     "sentry:sourcemaps": "sentry-cli sourcemaps inject --org murder-for-hope --project javascript-gatsby ./src && sentry-cli sourcemaps upload --org murder-for-hope --project javascript-gatsby ./src"

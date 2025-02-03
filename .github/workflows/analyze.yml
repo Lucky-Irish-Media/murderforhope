@@ -64,6 +64,8 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Run build
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
         run: bun run build
 
   test:
