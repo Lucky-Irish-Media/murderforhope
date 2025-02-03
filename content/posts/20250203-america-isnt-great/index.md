@@ -1,6 +1,6 @@
 ---
 title: "Why America Isn't Great"
-date: ""
+date: "2025-02-03T17:30:09.121Z"
 template: "post"
 draft: false
 slug: "/posts/why-america-isnt-great"
