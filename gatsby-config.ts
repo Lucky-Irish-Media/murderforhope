@@ -7,6 +7,7 @@ export default {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     url: config.url,
+    siteUrl: config.url,
     menu: config.menu,
     title: config.title,
     author: config.author,
