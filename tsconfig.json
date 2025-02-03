@@ -6,6 +6,7 @@
     "module": "esnext",
     "lib": ["esnext", "dom", "dom.iterable"],
     "moduleResolution": "bundler",
+
     "paths": {
       "@/hooks/*": ["./src/hooks/*"],
       "@/types/*": ["./src/types/*"],
@@ -15,6 +16,7 @@
       "@/components/*": ["./src/components/*"],
       "@/mocks": ["./internal/testing/mocks"]
     },
+
     "strict": true,
     "allowJs": false,
     "skipLibCheck": true,
@@ -27,7 +29,14 @@
     "verbatimModuleSyntax": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "inlineSources": true,
+
+    // Set `sourceRoot` to  "/" to strip the build path prefix
+    // from generated source code references.
+    // This improves issue grouping in Sentry.
+    "sourceRoot": "/"
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]

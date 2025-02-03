@@ -171,6 +171,7 @@ export default {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",
     "gatsby-plugin-remove-serviceworker",
+    "gatsby-plugin-robots-txt",
     {
       resolve: "gatsby-plugin-sass",
       options: {
