@@ -19,13 +19,15 @@
     "serve": "gatsby serve",
     "release": "semantic-release",
     "clean": "rimraf .cache public",
-    "build": "bun run clean && gatsby build",
+    "build": "bun run clean && gatsby build && bun run sentry:sourcemaps && bun run sentry:sourcemaps && bun run sentry:sourcemaps",
     "start": "bun run clean && gatsby develop",
-    "version": "bun ./internal/scripts/up-version.mjs"
+    "version": "bun ./internal/scripts/up-version.mjs",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org murder-for-hope --project javascript-gatsby ./src && sentry-cli sourcemaps upload --org murder-for-hope --project javascript-gatsby ./src"
   },
   "dependencies": {
     "@alxshelepenok/diesel": "^1.0.1360",
     "@alxshelepenok/diesel-extensions": "^1.0.1240",
+    "@sentry/cli": "^2.41.1",
     "@sentry/gatsby": "^8.42.0",
     "@sentry/tracing": "^7.114.0",
     "classnames": "^2.5.1",
@@ -38,6 +40,7 @@
     "gatsby-plugin-manifest": "^5.14.0",
     "gatsby-plugin-optimize-svgs": "^1.0.5",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sass": "^6.14.0",
     "gatsby-plugin-sharp": "^5.14.0",
     "gatsby-plugin-sitemap": "^6.14.0",
