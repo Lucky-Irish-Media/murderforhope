@@ -1,6 +1,6 @@
 ---
 title: "Why Are We A Murder?"
-date: "2024-01-08T19:50:37.121Z"
+date: "2025-01-08T19:50:37.121Z"
 template: "post"
 draft: false
 slug: "/posts/why-are-we-a-murder"
